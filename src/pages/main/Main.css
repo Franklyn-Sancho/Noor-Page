@@ -1,0 +1,17 @@
+.container {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.slide-show {
+    overflow: hidden;
+    height: 300px;
+    width: 100vw;
+}
+
+.products {
+    width: 100vw;
+    height: 800px;
+    background-color: #efe0e0;
+}
