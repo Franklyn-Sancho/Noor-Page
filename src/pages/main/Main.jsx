@@ -5,12 +5,7 @@ import { Carousel } from "react-bootstrap";
 import logo from "../../img/1.png";
 import img from "../../img/2.png";
 
-
-
-
 export default function Main() {
-
-
   return (
     <div className="container">
       <Header />
@@ -25,8 +20,9 @@ export default function Main() {
         </Carousel>
       </div>
 
-        <div className="products">página de produtos</div>
+      <div className="products">
+        
       </div>
-    
+    </div>
   );
 }

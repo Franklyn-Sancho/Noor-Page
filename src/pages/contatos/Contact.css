@@ -1,0 +1,30 @@
+.contact-page {
+    width: 100vw;
+    height: 100vh;
+    background-color: #4f4c4c;
+    color: white;
+    display: grid;
+    justify-content: center;
+}
+
+.title-contact {
+    width: 450px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.title-contact h1 {
+    font-size: 15px;
+}
+
+.title-contact p {
+    font-size: 20px;
+}
+
+.contact-form {
+    margin-top: 50px;
+}
+
+.contact-form form {
+    width: 600px;
+}
