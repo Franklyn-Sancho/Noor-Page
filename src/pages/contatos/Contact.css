@@ -3,28 +3,43 @@
     height: 100vh;
     background-color: #4f4c4c;
     color: white;
-    display: grid;
-    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
+
 }
 
-.title-contact {
-    width: 450px;
+.message-contact {
+    width: 50%;
     text-align: center;
-    margin-left: 40px;
+    margin-top: 200px;
+    padding-left: 30px;
 }
 
-.title-contact h1 {
-    font-size: 15px;
+
+.message-contact h1 {
+    font-size: 50px;
+    margin-left: 20px;
 }
 
-.title-contact p {
-    font-size: 20px;
+.message-contact p {
+    padding-top: 40px;
+    margin-left: 20px;
 }
 
 .contact-form {
-    margin-top: 50px;
+    margin-top: 120px;
+    width: 50%;
+    display: grid;
+    justify-content: center;
+    margin-left: 40px;
 }
 
+
 .contact-form form {
-    width: 600px;
+    width: 500px;
+}
+
+.contact-form button {
+    margin-top: 15px;
+    width: 200px;
 }

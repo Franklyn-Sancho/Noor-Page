@@ -27,10 +27,10 @@ export default function Header() {
         <Link to="/contatos">
         <i className="fas fa-comment-dots"></i>
         </Link>
-        <Link>
+        <Link to="/favoritos">
         <i className="fas fa-heart"></i>
         </Link>
-        <Link to="/login">
+        <Link to="/cadastro">
         <i className="fas fa-user"></i>
         </Link>
         <Link>
