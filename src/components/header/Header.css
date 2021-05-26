@@ -37,7 +37,7 @@
     justify-content: space-evenly;
     width: 200px;
     height: 40px;
-    font-size: 25px;
+    font-size: 21px;
     margin-top: 25px;
     position: relative;
     left: 280px;
@@ -51,6 +51,11 @@
 
 .search-bar input {
     border: 1px solid #e8e1e1;
-    border-radius: 5px;
+    border-radius: 7px;
     font-size: 15px;
+}
+
+.search-bar i {
+    position: relative;
+    right: 4px;
 }

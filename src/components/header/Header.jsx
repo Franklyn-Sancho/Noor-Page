@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css";
+import {Link} from 'react-router-dom'
 
 export default function Header() {
   return (
@@ -23,12 +24,21 @@ export default function Header() {
         </button>
       </div>
       <div className="search-item">
+        <Link to="/contatos">
         <i className="fas fa-comment-dots"></i>
+        </Link>
+        <Link to="/favoritos">
         <i className="fas fa-heart"></i>
+        </Link>
+        <Link to="/cadastro">
         <i className="fas fa-user"></i>
+        </Link>
+        <Link>
         <i className="fas fa-shopping-cart"></i>
+        </Link>
       </div>
       <div className="search-bar">
+        <i className="fas fa-search"></i>
         <input placeholder="Pesquise seu produto"  />
       </div>
     </div>
