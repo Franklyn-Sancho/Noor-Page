@@ -1,8 +1,9 @@
 import React from "react";
-import "./Login.css";
+import "./Cadastrar.css";
 import Header from "../../components/header/Header";
+import {Link} from 'react-router-dom'
 
-export default function Login() {
+export default function Cadastrar() {
   return (
     <div className="container">
       <Header />
@@ -79,9 +80,14 @@ export default function Login() {
                 </label>
               </div>
             </div>
-            <button type="submit" class="btn btn-primary">
-              Cadastrar
+            <button type="submit" class="btn btn-primary" style={{width: '180px'}}>
+              Cadastrar <i class="fas fa-signature" style={{marginLeft: '5px'}}></i>
             </button>
+            <Link to="/login">
+             <button type="submit" class="btn btn-primary" style={{marginLeft: '50px', background:'#45d354', border: '0'   }}>
+              Já tenho uma conta <i class="fas fa-sign-in-alt" style={{marginLeft: '5px'}}></i>
+            </button>
+            </Link>
           </form>
         </div>
       </div>

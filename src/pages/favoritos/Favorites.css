@@ -2,19 +2,37 @@
     margin: 12px;
 }
 
-.favorite-table{
+.favorite-table {
     background-color: #4f4c4c;
     width: 100vw;
-    height: 100vh;
+    height: 1200px;
 
 }
 
 .favorite-table h1 {
     padding-top: 50px;
-    font-size: 20px;
-    margin-left: 500px;
+    font-size: 30px;
+    margin-left: 450px;
     color: azure;
 }
+
+.favorite-table h6 {
+    width: 800px;
+    text-align: center;
+    margin-left: 300px;
+    color: azure;
+    padding-top: 5px;
+}
+
+.shopping-card {
+    display: flex;
+    justify-content: space-between;
+    width: 475px;
+    margin: 25px;
+    position: relative;
+    left: 810px;
+}
+
 
 
 

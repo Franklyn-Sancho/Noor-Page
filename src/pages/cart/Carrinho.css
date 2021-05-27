@@ -1,0 +1,14 @@
+.cart-page {
+    width: 100vw;
+    height: 100vh;
+    background-color: #4f4c4c;
+}
+
+.title-cart {
+    color: azure;
+    padding: 40px;
+}
+
+.title-cart h1 {
+    font-size: 30px;
+}

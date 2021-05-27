@@ -33,7 +33,7 @@ export default function Header() {
         <Link to="/cadastro">
         <i className="fas fa-user"></i>
         </Link>
-        <Link>
+        <Link to="/carrinho">
         <i className="fas fa-shopping-cart"></i>
         </Link>
       </div>
